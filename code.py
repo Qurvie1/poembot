@@ -3,8 +3,7 @@ from telebot import types
 from bs4 import BeautifulSoup
 import requests
 from selenium import webdriver
-
-bot = telebot.TeleBot(token="6695056328:AAFpkP8agmEZ9ypFkOaLQOQWGY1RCdCMn4o")
+from envivariables import bot
 
 
 @bot.message_handler(commands=['start'])
